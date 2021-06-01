@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5D5B4"
+    tools:context=".Fragment3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewfact4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text=" \u2022 111,111,111 x 111,111,111 = 12,345,678,987,654,321" />
+
+        <TextView
+            android:id="@+id/textViewfact5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text=" \u2022 All polar bears are left handed." />
+
+        <TextView
+            android:id="@+id/textViewfact6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text=" \u2022 Elephants are the only animals that can't jump." />
+
+        <TextView
+            android:id="@+id/RSS"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RSS" />
+
+        <TextView
+            android:id="@+id/textViewRss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnColorFrag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#5C931B"
+            android:text="Change Color"
+            android:textColor="#050505"
+            app:backgroundTint="#B6B5B5" />
+    </LinearLayout>
+
+</FrameLayout>
